@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 
 const PaymentGateway = () => {
-  const SERVER_URL = "http://localhost:3001"
-  const CLIENT_URL = "http://localhost:3000"
+  const SERVER_URL = "https://working-with-phonepe-api-1.onrender.com"
+  const CLIENT_URL = "https://working-with-phonepe-api.onrender.com"
 
   const [name, onChangeName] = useState("");
   const [amount, onChangeAmount] = useState("");
