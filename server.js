@@ -9,8 +9,8 @@ const mongoose = require('mongoose');
 
 app.use(cors());
 
-const SERVER_URL = "http://localhost:3001"
-const CLIENT_URL = "http://localhost:3000"
+const SERVER_URL = "https://working-with-phonepe-api-1.onrender.com/"
+const CLIENT_URL = "https://working-with-phonepe-api.onrender.com/"
 
 //connecting database
 const uri = "mongodb+srv://new_user_fahd:fahd@cluster0.hyeth5m.mongodb.net/phonepe?retryWrites=true&w=majority"
