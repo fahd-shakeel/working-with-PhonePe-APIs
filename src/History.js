@@ -5,33 +5,33 @@ import "./History.css"
 import TransactionCard from './TransactionCard.js';
 
 const History = () => {
-    const SERVER_URL = "http://localhost:3001"
+    const SERVER_URL = "https://working-with-phonepe-api-1.onrender.com"
     
     const [data, onChangeData] = useState([]);
 
-    const transactionData = [{
-        id: 1,
-        name: "fahd",
-        date: "2023-01-13",
-        amount: "10000"
-    },
-    {
-        id: 2,
-        name: "ahad",
-        date: "2023-01-13",
-        amount: "2312",
-        transactionId:"asdfa"
-    }, {
-        id: 3,
-        name: "sahil",
-        date: "2023-01-13",
-        amount: "23.5"
-    }, {
-        id: 4,
-        name: "adil",
-        date: "2023-01-13",
-        amount: "1240"
-    }]
+    // const transactionData = [{
+    //     id: 1,
+    //     name: "fahd",
+    //     date: "2023-01-13",
+    //     amount: "10000"
+    // },
+    // {
+    //     id: 2,
+    //     name: "ahad",
+    //     date: "2023-01-13",
+    //     amount: "2312",
+    //     transactionId:"asdfa"
+    // }, {
+    //     id: 3,
+    //     name: "sahil",
+    //     date: "2023-01-13",
+    //     amount: "23.5"
+    // }, {
+    //     id: 4,
+    //     name: "adil",
+    //     date: "2023-01-13",
+    //     amount: "1240"
+    // }]
 
     const TransactionCardLayout = () => {
         return data.map((details) => {
