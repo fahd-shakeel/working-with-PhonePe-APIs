@@ -1,0 +1,53 @@
+body{
+    font-size:1em;
+}
+#history{
+    width:80%;
+    /* border:2px solid red; */
+    margin:10px auto;
+
+}
+
+#history #heading{
+    margin:2px auto;
+    border-bottom: 1px solid black;
+    padding-bottom:10px;
+}
+
+#history button{
+    margin-top:10px;
+    width:10%;
+}
+
+#transaction-list{
+    width:80%;
+    margin: 10px auto;
+}
+
+#transaction-list table{
+    width:80%;
+    text-align:center;
+    margin:0 auto;
+    border-collapse: collapse;
+    font-size: 1.25em;
+
+}
+
+#transaction-list table th,td{
+    border:1px solid grey;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* tr:nth-child(even){
+    background-color: #dddddd;
+} */
+
+@media (max-width:600px){
+    #transaction-list{
+        width:100%;
+    }
+    #history button {
+        width:20%;
+    }
+}

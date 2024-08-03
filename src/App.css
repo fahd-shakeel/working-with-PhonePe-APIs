@@ -1,0 +1,82 @@
+#main-page{
+    max-width: 1024px;
+    /* border : 2px solid red; */
+    margin: 0 auto;
+}
+#heading{
+    /* border:2px solid blue; */
+    text-align:center;
+}
+
+#main-page #heading h1{
+    font-size:2.5em;
+}
+
+#label-input{
+    display: flex;
+    flex-direction: column;
+    margin:4px;
+}
+
+#gateway-body{
+    border:2px solid black;
+    border-radius: 6px;
+    width:50%;
+    height:50%;
+    padding:20px;
+    margin:0 auto;
+
+}
+
+#payment-info{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid blue; */
+    margin:0 auto;
+    width:80%;
+}
+
+#payment-info label{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#payment-info input{
+    height:20px;
+}
+
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border:2px solid blue; */
+    margin:1em auto 0 auto;
+    width:100%;
+}
+
+#button button{
+    height:30px;
+    width:100px;
+    background-color: skyblue;
+    border-color: none;
+    border:none;
+    border-radius: 6px;
+}
+
+#button button:hover{
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+    #payment-info{
+        width:90%
+    }
+
+    #button{
+        width:90%
+    }
+
+    #gateway-body{
+        width:85%;
+    }
+}

@@ -1,0 +1,29 @@
+/* #transaction-card-layout{
+    margin:0 auto;
+}
+
+#transaction-card-layout tbody{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    
+
+}
+
+#transaction-card-layout tbody tr{
+    display: flex;
+    justify-content: space-between;
+    
+    margin:0 auto;
+}
+
+#transaction-card-layout tbody td{
+    border:1px solid grey;
+    font-size: 1em;
+    text-align: center;
+}
+
+#transaction-card-layout table tbody tr:nth-child(even){
+    background-color: #dddddd;
+} */
