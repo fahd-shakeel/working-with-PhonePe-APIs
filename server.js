@@ -56,9 +56,9 @@ app.post('/pay/:name/:amount', (req, res) => {
         "merchantTransactionId": MERCHANT_TRANSACTION_ID,
         "merchantUserId": "MUID123",
         "amount": amount,
-        "redirectUrl": `${SERVER_URL}/redirect-url/${MERCHANT_ID}/${MERCHANT_TRANSACTION_ID}/${name}/${amount}`,
+        "redirectUrl": `${SERVER_URL}redirect-url/${MERCHANT_ID}/${MERCHANT_TRANSACTION_ID}/${name}/${amount}`,
         "redirectMode": "REDIRECT",
-        "callbackUrl": `${SERVER_URL}/redirect-url/${MERCHANT_ID}/${MERCHANT_TRANSACTION_ID}/${name}/${amount}`,
+        "callbackUrl": `${SERVER_URL}redirect-url/${MERCHANT_ID}/${MERCHANT_TRANSACTION_ID}/${name}/${amount}`,
         "mobileNumber": "9999999999",
         "name":name,
         "paymentInstrument": {
