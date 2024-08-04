@@ -30,7 +30,7 @@ connection.once('open',()=>{
 
 app.get('/history', (req,res)=>{
     Transaction.find()
-    .then((element)=>res.status(200).json(element))
+    .then((element)=>res.json(element))
     .catch((err)=>res.status(400).json("Error:"+err))
 })
 
