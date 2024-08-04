@@ -39,7 +39,7 @@ const PaymentGateway = () => {
   //   }, [])
 
   const history = () => {
-    window.location.href=`${CLIENT_URL}/history`;
+    navigate('/history');
   }
 
   return (
