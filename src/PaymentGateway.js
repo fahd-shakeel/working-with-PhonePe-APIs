@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useCookies } from "react-cookie";
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
+import { useEffect } from "react";
 
 const PaymentGateway = () => {
   const SERVER_URL = "https://working-with-phonepe-api-1.onrender.com"
