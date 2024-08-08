@@ -33,10 +33,12 @@ const PaymentGateway = () => {
   }
 
 
-  // useEffect(() => {
-  //   return () => {
-
-  //   }, [])
+  useEffect(() => {
+    alert(`After Clicking Pay use:
+      Card No: 4242-4242-4242-4242
+      Valid Till : 12(MM) 24(YY), CVV : 936
+      OTP : 123456 `);
+  }, [])
 
   const history = () => {
     navigate('/history');
